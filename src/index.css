@@ -1,1 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root { 
+    --big-shoulders-font: 'Big Shoulders Display', cursive;
+    --lexend-deca-font: 'Lexend Deca', sans-serif;
+}
+main { 
+    margin-top: 2rem;
+}
+
+h2 { 
+    color: #f2f2f4;
+    font-family: var(--big-shoulders-font);
+    font-size: 1.8rem;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    padding: 1rem 0rem;
+}
+p { 
+    color: #dcffff;
+    font-family: var(--lexend-deca-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-right: 1.3rem;
+}
+button { 
+    background-color: #f2f2f4;
+    border-radius: 50px;
+    border: none;
+    font-family: var(--lexend-deca-font);
+    margin: 1.5rem 0rem;
+    padding: 0.9rem 2rem;
+}
+img { 
+    height: 100%;
+    width: 50px;
+}
+.container { 
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.sedans {
+ background-color: #df822e;
+ border-radius: 8px 8px 0 0;
+}
+.sedans button { 
+    color: #df822e;
+}
+.suvs { 
+    background-color: #166971;
+}
+.suvs button { 
+    color: #166971;
+}
+.luxury { 
+    background-color: #09403e;
+    border-radius: 0 0 8px 8px;
+}
+.luxury button { 
+    color: #09403e;
+}
+
+@media screen and (min-width: 1440px) {
+    main { 
+        margin-top: 0;
+    }
+    .container { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .sedans { 
+        border-radius: 8px 0 0 8px;
+    }
+    .luxury { 
+        border-radius: 0 8px 8px 0;
+    }
+}
