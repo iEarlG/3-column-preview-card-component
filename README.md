@@ -26,9 +26,9 @@ Users should be able to:
 ### Screenshot
 
 <p align="right">Mobile size (iPhone SE | 375px) </p>
-<img src="https://user-images.githubusercontent.com/91045673/231111449-15820ae0-18ff-4e0d-9c2b-25327a3819b3.png" height="500" align="right" />
+<img src="https://user-images.githubusercontent.com/91045673/231198652-b8b5c62b-fd27-4969-9ef7-7ee8cbf62ebe.png" height="500" align="right" />
 <p align="left">Desktop size </p>
-<img src="https://user-images.githubusercontent.com/91045673/231111536-3557174b-37b7-4455-9a30-3ef3bae768bd.png" width="500" align="center" />
+<img src="https://user-images.githubusercontent.com/91045673/231198758-3fb746c8-5c1a-464d-8815-840a9e84702f.png" width="500" align="center" />
 
 
 ### Links
